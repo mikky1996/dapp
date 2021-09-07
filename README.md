@@ -11,4 +11,8 @@ The base was created by following [this resource](https://www.youtube.com/watch?
 # Install Node.js (npm etc..)
 brew install node
 
+# Install the library
+git clone git@github.com:mikky1996/dapp.git
+npm install
+
 ```
