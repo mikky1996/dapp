@@ -20,3 +20,8 @@ npm install
 ```
 ### BlockChain Setup:
 Install one-click blockchain by following [this link](https://www.trufflesuite.com/ganache)
+
+### Start React Servers:
+```bash
+npm run start
+```
