@@ -21,7 +21,13 @@ npm install
 ### BlockChain Setup:
 Install one-click blockchain by following [this link](https://www.trufflesuite.com/ganache)
 
-### Start React Servers:
+### Commands:
 ```bash
-npm run start
+npm run start # Start react servers
+truffle migrate # To deploy the smart contract
+truffle migrate --reset # To redeploy the smart contract
+truffle console # To pull the blockchain colose
+truffle test # Run tests
 ```
+
+
