@@ -27,6 +27,7 @@ npm run start # Start react servers
 truffle migrate # To deploy the smart contract
 truffle migrate --reset # To redeploy the smart contract
 truffle console # To pull the blockchain colose
+truffle test # Run tests
 ```
 
 
