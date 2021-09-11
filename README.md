@@ -26,6 +26,7 @@ Install one-click blockchain by following [this link](https://www.trufflesuite.c
 npm run start # Start react servers
 truffle migrate # To deploy the smart contract
 truffle migrate --reset # To redeploy the smart contract
+truffle console # To pull the blockchain colose
 ```
 
 
