@@ -39,7 +39,7 @@ contract EthSwap {
 
   }
 
-  function sellTokens(uint _amount) public {
+  function sellTokens(uint _amount) public payable {
 
     require(token.balanceOf(msg.sender) >= _amount);
 

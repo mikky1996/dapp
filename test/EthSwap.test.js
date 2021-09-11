@@ -53,7 +53,7 @@ contract('EthSwap', ([deployer, investor]) => {
 			result = await ethSwap.buyTokens({from: investor, value: tokens('1')})
 		})
 
-		it('Allows user to instantly purchase tokens from ethSwap for a fixed rate', async () => {
+		it('Allows user to purchase tokens from ethSwap for a fixed rate', async () => {
 			 let investorBalance = await token.balanceOf(investor)
 			 assert.equal(investorBalance.toString(), tokens('100'))
 
@@ -81,7 +81,7 @@ contract('EthSwap', ([deployer, investor]) => {
 			result = await ethSwap.sellTokens(tokens('100'), {from: investor})
 		})
 
-		it('Allows user to instantly sell tokens to ethSwap for a fixed rate', async () => {
+		it('Allows user to sell tokens to ethSwap for a fixed rate', async () => {
 
 			 let ethSwapBalance
 			 ethSwapBalance = await token.balanceOf(ethSwap.address)
